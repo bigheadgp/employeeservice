@@ -1,6 +1,7 @@
 # Introduction
 
-this is a simple spring boot application which process the core entity 'employee',
+This is a simple spring boot application which process the core entity 'employee',
+
 the project demo following scenarios:
 
 * how to use web controller, jpa, hibernete with mysql
