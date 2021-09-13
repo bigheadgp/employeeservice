@@ -18,6 +18,12 @@ public class Employee {
         this.name = name;
     }
 
+    public Employee(String name, Date birthday, String email) {
+        this.name = name;
+        this.birthday = birthday;
+        this.email = email;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

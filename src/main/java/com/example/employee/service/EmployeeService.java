@@ -2,6 +2,7 @@ package com.example.employee.service;
 
 import com.example.employee.dao.Employee;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -19,5 +20,7 @@ public interface EmployeeService {
     public boolean exists(String name);
 
     public Employee save(Employee employee);
+
+    public List<Employee> searchEmployeesByBirthdayBetween(Date from, Date to);
 
 }
